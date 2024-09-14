@@ -1,0 +1,70 @@
+.categories {
+    display: flex;
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 40px; 
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.categories__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    gap: 24px;
+}
+
+.categories__content button {
+    max-width: 110px;
+}
+
+.categories__img-container {
+    display: flex;
+    max-width: 60%;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.categories__img {
+    display: flex;
+    width: 242px;
+    height: 207px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__img:hover {
+    filter: brightness(80%);
+}
+
+.categories__img p {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    visibility: hidden;
+}
+
+.categories__img:hover p {
+    visibility: visible;
+}
+
+.hanging {
+    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\hanging.jpg');
+}
+
+.cactus {
+    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\cactus.jpg');
+}
+
+.indoor {
+    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\indoor.jpg');
+}
+
+.outdoor {
+    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\outdoor.jpg');
+}

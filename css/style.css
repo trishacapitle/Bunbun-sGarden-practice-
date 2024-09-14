@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("sections/hero.css");
+@import url("sections/services.css");
+@import url("sections/categories.css");
+@import url("sections/newsletter.css");
+@import url("sections/upcoming.css");
+@import url("sections/footer.css");
+
+:root {
+    --poppins: "Poppins", serif;
+    --montserrat: "Montserrat", sans-serif;
+
+    --primary-color: #8BB178;
+    --secondary-color: #121212;
+
+    --description-color: #68737F;
+    --color-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: var(--montserrat);
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    margin: 32px auto;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__logo img  {
+    width: 34px;
+    height: 34px;
+}
+
+.header__icons {
+    display: flex;
+    gap: 10px;
+}
+ 
+.bold {
+    font-weight: 900;
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.main {
+    max-width: 80%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--poppins);
+}
+
+.description {
+    font-size: 18px;
+    font-family: var(--poppins);
+    color: var(--description-color);
+}
+
+.description-2 {
+    font-size: 16px;
+    font-family: var(--poppins);
+}
+
+.description-color {
+    color: var(--description-color);
+}
+

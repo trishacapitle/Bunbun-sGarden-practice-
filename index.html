@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bunbun's Garden</title>
+  <link rel="icon" href="/plant.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <img src="assets/noto_potted-plant.png" alt="plant logo">
+        <h4 class="bold">Bunbun's</h4>
+        <h4 class="thin">Garden</h4>
+      </div>
+
+      <div class="header__icons">
+        <box-icon name='search'></box-icon>
+        <box-icon name='menu-alt-right'></box-icon>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="hero__img-container">
+        <div class="hero__img-group">
+            <div class="hero__img-indicator">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot active"></span>
+            </div>
+            <div class="hero__img">
+              <img src="assets/aloe.jpg" alt="aloe vera">
+            </div>
+        </div>
+
+        <div class="hero__img-selector">
+            <box-icon name="left-arrow-alt"></box-icon>
+            <p>Aloe Vera</p>
+            <box-icon name="right-arrow-alt"></box-icon>
+        </div>
+      </div>
+      <div class="hero__content">
+        <h2>Aloe Vera</h2>
+        <p class="description">
+          Aloe produces two substances, gel and latex, which are used for medicines. Aloe gel is the clear, jelly-like substance found in the inner part of the aloe plant leaf. Aloe latex comes from just under the plant's skin and is yellow in color. Some aloe products are made from the whole crushed leaf, so they contain both gel and latex.
+        </p>
+        <button class="btn-active" id="btn-buy">Buy Now</button>
+        <button class="btn" id="btn-explore">Explore Plants</button>
+      </div>
+    </div>
+    
+    <div class="services">
+      <h2 class="title">Our Services</h2>
+      <ul class="services__list">
+        <li class="services__list-container">
+          <span class="square"><img src="assets/spider-plant 1.png" alt="indoor plant"></span>
+          
+          <p class="description-2 bold">Indoor Plant</p>
+          <p class="description-2 description-color">Add ambiance to your room with indoor plants</p>
+        </li>
+        <li class="services__list-container">
+          <span class="square"><img src="assets/sprout 1.png" alt="outdoor plant"></span>
+          
+          <p class="description-2 bold">Outdoor Plant</p>
+          <p class="description-2 description-color">Provide a rich look to your balconies</p>
+        </li>
+        <li class="services__list-container">
+          <span class="square"><img src="assets/shovel 1.png" alt="shovel"></span>
+          
+          <p class="description-2 bold">Garden Care</p>
+          <p class="description-2 description-color">We provied you with the best assistance regarding your garden</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="categories">
+      <div class="categories__content">
+        <h2 class="title">Explore from Categories</h2>
+        <p class="description">There are different types of plants all around us, and most of us recognize many kinds of plants that flower, grow in our gardens, or that we can eat. There is a vast range in the types of plants that grow in the world. </p>
+        <button class="btn-active">See All</button>
+      </div>
+      <div class="categories__img-container">
+        <div class="categories__img hanging"><p>Hanging</p></div>
+        <div class="categories__img cactus"><p>Cactus</p></div>
+        <div class="categories__img indoor"><p>Indoor Plant</p></div>
+        <div class="categories__img outdoor"><p>Outdoor Plant</p></div>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <div class="newsletter__content">
+        <h2>Garden Pokhara welcomes you!!</h2>
+        <p>Receive 10% off on your purchase. Redeem now!</p>
+      </div>
+      <div class="newsletter__form">
+        <input type="email" placeholder="Enter your email address"  class="input">
+        <button id="btn-claim" class="btn-active">Claim now!</div>
+    </div> 
+
+    <div class="upcoming">
+      <h2 class="title">Upcoming Plants</h2>
+      <div class="upcoming__gallery">
+        <p class="description-2 bold"><img src="assets/ivy.png" alt="ivy">Ivy</p>
+        <p class="description-2 bold"><img src="assets/jasmine.png" alt="jasmine">Jasmine</p>
+        <p class="description-2 bold"><img src="assets/rosemary.png" alt="rosemary">Rosemary</p>
+        <p class="description-2 bold"><img src="assets/gingko.jpg" alt="gingko">Gingko</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <div class="footer__nav">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h3>Contact</h3>
+          <p>Mabini, Philippines</p>
+          <p>mail@bunbunsgarden.club</p>
+          <p>+63-9999999999</p>
+        </div>
+        <div class="footer__map">
+        </div>  
+      </div>
+      <div class="footer__copyright">
+        <p>Copyright @ 2021 Bunbun'sGarden</p>
+        <img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
