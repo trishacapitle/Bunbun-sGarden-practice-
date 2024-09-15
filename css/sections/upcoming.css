@@ -1,0 +1,28 @@
+.upcoming {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.upcoming h2{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.upcoming__gallery {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    gap: 28px;
+}
+
+figure {
+    width: 267px;
+    height: 267px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 20px;
+}

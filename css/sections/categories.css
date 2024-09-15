@@ -19,12 +19,11 @@
 }
 
 .categories__img-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
     max-width: 60%;
-    gap: 20px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .categories__img {

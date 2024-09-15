@@ -1,0 +1,38 @@
+.newsletter {
+    width: 100%;
+    height: 403px;
+    padding: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\newsletter-bg.png');
+}
+
+.white {
+    color: #fff;
+}
+
+.newsletter__content p {
+    margin-top: 16px;
+}
+
+.newsletter__form input {
+    display: block;
+    height: 50px;
+    width: 370px;
+}
+
+.newsletter__form button {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: var(--description-color);
+    padding-left: 16px;
+}
+

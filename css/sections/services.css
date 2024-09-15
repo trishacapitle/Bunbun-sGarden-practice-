@@ -8,7 +8,8 @@
 }
 
 .services h2 {
-    margin: 60px auto;
+    margin: 60px;
+    text-align: center;
 }
 
 .services__list {
