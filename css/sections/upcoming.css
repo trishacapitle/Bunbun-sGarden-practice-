@@ -12,17 +12,21 @@
 .upcoming__gallery {
     display: flex;
     justify-content: center;
+    min-height: max-content;
     margin: auto;
     margin-top: 40px;
     gap: 28px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 figure {
     width: 267px;
-    height: 267px;
+    height: 330px; /* 267px + 20px figcaption */
     text-align: center;
 }
 
 figcaption {
     margin-top: 20px;
 }
+

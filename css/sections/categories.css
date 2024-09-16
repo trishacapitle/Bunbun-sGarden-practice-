@@ -1,6 +1,5 @@
 .categories {
     display: flex;
-    max-width: 80%;
     margin: 30px auto;
     padding: 40px; 
     gap: 100px;
@@ -35,6 +34,7 @@
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .categories__img:hover {
