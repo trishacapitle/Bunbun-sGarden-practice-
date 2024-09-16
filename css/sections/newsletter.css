@@ -6,15 +6,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 100px;
 
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../../assets/newsletter-bg.png');
+    margin-left: -5%;
 }
 
 .white {
     color: #fff;
+}
+
+.newsletter__content {
+    max-width: 30%;
 }
 
 .newsletter__content p {

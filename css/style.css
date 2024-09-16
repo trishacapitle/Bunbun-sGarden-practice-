@@ -127,6 +127,7 @@ box-icon {
 @media screen and (max-width: 900px) {
     .newsletter {
         flex-direction: column;
+        justify-content: center;
         text-align: center;
         align-items: center;
         gap: 36px;
