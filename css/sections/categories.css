@@ -53,17 +53,17 @@
 }
 
 .hanging {
-    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\hanging.jpg');
+    background-image: url('../../assets/hanging.jpg');
 }
 
 .cactus {
-    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\cactus.jpg');
+    background-image: url('../../assets/cactus.jpg');
 }
 
 .indoor {
-    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\indoor.jpg');
+    background-image: url('../../assets/indoor.jpg');
 }
 
 .outdoor {
-    background-image: url('C:\Users\ASHI\Desktop\Garden\assets\outdoor.jpg');
+    background-image: url('../../assets/outdoor.jpg');
 }
