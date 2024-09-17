@@ -20,7 +20,8 @@
     --color-white: #fff;
 }
 
-* {
+
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -197,6 +198,10 @@ box-icon {
         margin-bottom: 20vh;
     }
 
+    .upcoming__content h2{
+        font-size: 2rem;
+    }
+
     .upcoming__gallery figure {
         width: 100%;
     }
@@ -239,7 +244,7 @@ box-icon {
     }
 
     .footer__nav {
-        width: 50%;
+        width: 30%;
 
     }
 
@@ -256,6 +261,6 @@ box-icon {
     .footer__content {
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
