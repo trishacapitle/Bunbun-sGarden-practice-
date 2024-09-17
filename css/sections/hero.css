@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    margin: 32px auto;
+    margin: 5%;
 }
 
 .hero__img-container {
@@ -10,14 +10,14 @@
 
 .hero__img-group {
     display: flex;
+    justify-content: space-between;
+    gap: 2vw;
 }
 
 .hero__img-indicator {
     display: flex;
     flex-direction: column;
-    margin-left: 8px;
-    margin-right: 24px;
-    gap: 24px;
+    gap: 3vh;
     justify-content: center;
 }
 
@@ -25,15 +25,21 @@
     display: flex;
     justify-content: flex-end;
     gap: 20%;
-    max-width: 80%;
     margin-top: 28px;
+    margin-right: 7%;
+}
+
+.hero__img-selector p {
+    margin: 0;
 }
 
 .hero__img {
-    width: 492px;
-    height: 761px;
-    margin-top: -20%;
-    z-index: -1;
+    height: 80vh;
+}
+
+.hero__img img {
+    height: 100%;
+    object-fit: cover;
 }
 
 .dot {
@@ -50,13 +56,15 @@
 }
 
 .hero__content {
+    height: 60vh;
     margin: auto;
-    padding: 0 80px;
+    padding: 0 7vw;
 }
 
 .hero__content h2 {
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--primary-color);
+    margin-top: 0;
 }
 
 .hero__content p {

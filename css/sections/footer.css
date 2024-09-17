@@ -1,13 +1,8 @@
-footer {
-    margin: auto;
-}
 
 .footer__content {
     display: flex;
-    margin: 24px;
     align-items: center;
-    gap: 10%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .footer__nav {
@@ -16,6 +11,7 @@ footer {
 
 .footer__nav-list {
     list-style-type: none;
+    width: 30%;
 }
 
 .footer__nav-item {
@@ -25,7 +21,7 @@ footer {
 
 
 .footer__contact {
-    margin-left: 24px;
+    width: 30%;
 }
 
 .footer__contact h3 {
@@ -41,12 +37,12 @@ footer {
 
 
 .footer__map {
-    margin-top: 80px;
-    margin-left: 24px;
+    width: 40%;
+    align-items: center;
 }
 
 .footer__map iframe {
-    width: 500px;
+    width: 100%;
     height: 300px;
     border: none;
     margin-bottom: 60px;

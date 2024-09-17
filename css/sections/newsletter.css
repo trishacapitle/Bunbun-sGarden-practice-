@@ -1,6 +1,6 @@
 .newsletter {
     width: 100%;
-    height: 403px;
+    height: 60vh;
     padding: 5%;
 
     display: flex;
@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../../assets/newsletter-bg.png');
-    margin-left: -5%;
 }
 
 .white {
@@ -19,17 +18,21 @@
 }
 
 .newsletter__content {
-    max-width: 30%;
+    width: 60%;
 }
 
 .newsletter__content p {
     margin-top: 16px;
 }
 
+.newsletter__form {
+    width: 40%;
+}
+
 .newsletter__form input {
     display: block;
     height: 50px;
-    width: 370px;
+    width: 100%;
 }
 
 .newsletter__form button {
