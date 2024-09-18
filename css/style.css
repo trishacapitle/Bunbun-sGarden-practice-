@@ -119,19 +119,21 @@ box-icon {
 /* START: services media querie */
 @media screen and (max-width: 600px) {
     .services {
-        margin-top: 20vh;
+        margin-top: 10%;
         gap: 5vh;
-        height: 100vh;
+        height: 80vh;
+        justify-content: flex-start;
     }
 
     .services__list {
         flex-direction: column;
         height: 100%;
         gap: 8vh;
+        justify-content: space-evenly;
     }
 
     .services__list-container {
-        max-width: 60%;
+        max-width: 80%;
     }
 }
 
