@@ -11,157 +11,158 @@
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
-  <header>
-    <nav class="header__nav">
-      <div class="header__logo" data-aos="fade-down">
-        <img src="assets/noto_potted-plant.png" alt="plant logo">
-        <h4 class="bold">Bunbun's</h4>
-        <h4 class="thin">Garden</h4>
-      </div>
+  <div class="container">
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo" data-aos="fade-down">
+          <img src="assets/noto_potted-plant.png" alt="plant logo">
+          <h4 class="bold">Bunbun's</h4>
+          <h4 class="thin">Garden</h4>
+        </div>
 
-      <div class="header__icons">
-        <box-icon name='search'></box-icon>
-        <box-icon name='menu-alt-right'></box-icon>
-      </div>
-    </nav>
-  </header>
+        <div class="header__icons">
+          <box-icon name='search'></box-icon>
+          <box-icon name='menu-alt-right'></box-icon>
+        </div>
+      </nav>
+    </header>
 
-    <section class="hero">
-      <div class="hero__img-container" data-aos="fade-down">
-        <div class="hero__img-group" >
-          <div class="hero__img-indicator">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot active"></span>
+      <section class="hero">
+        <div class="hero__img-container" data-aos="fade-down">
+          <div class="hero__img-group" >
+            <div class="hero__img-indicator">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot active"></span>
+            </div>
+            <div class="hero__img">
+              <img src="assets/aloe.jpg" alt="aloe vera">
+            </div>
           </div>
-          <div class="hero__img">
-            <img src="assets/aloe.jpg" alt="aloe vera">
+
+          <div class="hero__img-selector">
+            <box-icon name="left-arrow-alt"></box-icon>
+            <p>Aloe Vera</p>
+            <box-icon name="right-arrow-alt"></box-icon>
           </div>
         </div>
 
-        <div class="hero__img-selector">
-          <box-icon name="left-arrow-alt"></box-icon>
-          <p>Aloe Vera</p>
-          <box-icon name="right-arrow-alt"></box-icon>
+        <div class="hero__content" data-aos="fade-left">
+          <h2>Aloe Vera</h2>
+          <p class="description">
+            Aloe produces two substances, gel and latex, which are used for medicines. Aloe gel is the clear, jelly-like substance found in the inner part of the aloe plant leaf. Aloe latex comes from just under the plant's skin and is yellow in color. Some aloe products are made from the whole crushed leaf, so they contain both gel and latex.
+          </p>
+          <button class="btn-active" id="btn-buy">Buy Now</button>
+          <button class="btn" id="btn-explore">Explore Plants</button>
         </div>
-      </div>
+      </section>
+      
+      <section class="services" data-aos="zoom-in">
+        <h2 class="title">Our Services</h2>
+        <ul class="services__list">
+          <li class="services__list-container">
+            <span class="square"><img src="assets/spider-plant 1.png" alt="indoor plant"></span>
 
-      <div class="hero__content" data-aos="fade-left">
-        <h2>Aloe Vera</h2>
-        <p class="description">
-          Aloe produces two substances, gel and latex, which are used for medicines. Aloe gel is the clear, jelly-like substance found in the inner part of the aloe plant leaf. Aloe latex comes from just under the plant's skin and is yellow in color. Some aloe products are made from the whole crushed leaf, so they contain both gel and latex.
-        </p>
-        <button class="btn-active" id="btn-buy">Buy Now</button>
-        <button class="btn" id="btn-explore">Explore Plants</button>
-      </div>
-    </section>
-    
-    <section class="services" data-aos="zoom-in">
-      <h2 class="title">Our Services</h2>
-      <ul class="services__list">
-        <li class="services__list-container">
-          <span class="square"><img src="assets/spider-plant 1.png" alt="indoor plant"></span>
-
-          <p class="description-2 bold">Indoor Plant</p>
-          <p class="description-2 description-color">Add ambiance to your room with indoor plants</p>
-        </li>
-        <li class="services__list-container">
-          <span class="square"><img src="assets/sprout 1.png" alt="outdoor plant"></span>
-          
-          <p class="description-2 bold">Outdoor Plant</p>
-          <p class="description-2 description-color">Provide a rich look to your balconies</p>
-        </li>
-        <li class="services__list-container">
-          <span class="square"><img src="assets/shovel 1.png" alt="shovel"></span>
-          
-          <p class="description-2 bold">Garden Care</p>
-          <p class="description-2 description-color">We provied you with the best assistance regarding your garden</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="categories">
-      <div class="categories__content" data-aos="fade-right">
-        <h2 class="title">Explore from Categories</h2>
-        <p class="description description-color">There are different types of plants all around us, and most of us recognize many kinds of plants that flower, grow in our gardens, or that we can eat. There is a vast range in the types of plants that grow in the world. </p>
-        <button class="btn-active">See All</button>
-      </div>
-      <div class="categories__img-container" data-aos="fade-left">
-        <div class="categories__img hanging"><p>Hanging</p></div>
-        <div class="categories__img cactus"><p>Cactus</p></div>
-        <div class="categories__img indoor"><p>Indoor Plant</p></div>
-        <div class="categories__img outdoor"><p>Outdoor Plant</p></div>
-      </div>
-    </section>
-
-    <section class="newsletter">
-      <div class="newsletter__content" data-aos="fade-up">
-        <h2 class="title white" >Garden Pokhara welcomes you!!</h2>
-        <p class="description-2 white">Receive 10% off on your purchase. Redeem now!</p>
-      </div>
-      <div class="newsletter__form" data-aos="fade-down"> 
-        <input type="email" placeholder="Enter your email address"  class="input">
-        <button id="btn-claim" class="btn-active">Claim now!
-      </div>
-    </section> 
-
-    <section class="upcoming">
-      <div class="upcoming__content">
-        <h2 class="title">Upcoming Plants</h2>
-        <div class="upcoming__gallery" data-aos="flip-down">
-          <figure>   
-            <img src="assets/ivy.png" alt="ivy">
-            <figcaption class="description-2 bold">Ivy</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/jasmine.png" alt="jasmine">
-            <figcaption class="description-2 bold">Jasmine</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/rosemary.png" alt="rosemary">
-            <figcaption class="description-2 bold">Rosemary</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/gingko.jpg" alt="gingko">
-            <figcaption class="description-2 bold">Gingko</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-  <footer>
-    <div class="footer__content">
-      <div class="footer__nav">
-        <ul class="footer__nav-list">
-          <li class="footer__nav-item"><a href="#">Home</a></li>
-          <li class="footer__nav-item"><a href="#">About</a></li>
-          <li class="footer__nav-item"><a href="#">Services</a></li>
-          <li class="footer__nav-item"><a href="#">Contact Us</a></li>
+            <p class="description-2 bold">Indoor Plant</p>
+            <p class="description-2 description-color">Add ambiance to your room with indoor plants</p>
+          </li>
+          <li class="services__list-container">
+            <span class="square"><img src="assets/sprout 1.png" alt="outdoor plant"></span>
+            
+            <p class="description-2 bold">Outdoor Plant</p>
+            <p class="description-2 description-color">Provide a rich look to your balconies</p>
+          </li>
+          <li class="services__list-container">
+            <span class="square"><img src="assets/shovel 1.png" alt="shovel"></span>
+            
+            <p class="description-2 bold">Garden Care</p>
+            <p class="description-2 description-color">We provied you with the best assistance regarding your garden</p>
+          </li>
         </ul>
-      </div>
-      <div class="footer__contact">
-        <h3>Contact</h3>
-        <p class="description-2">Mabini, Philippines</p>
-        <p class="description-2">mail@bunbunsgarden.club</p>
-        <p class="description-2">+63-9999999999</p>
-      </div>
-      <div class="footer__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.9342647637415!2d121.43643601479573!3d14.49944989182383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c4c5cd4e6f%3A0x7fbbd7f7f2e3c07a!2sBrgy%20Mabini%2C%20Tayabas%2C%20Quezon!5e0!3m2!1sen!2sph!4v1622209443116!5m2!1sen!2sph"  allowfullscreen="" loading="lazy"></iframe>
-      </div>  
-    </div>
+      </section>
 
-    <hr>
-
-    <div class="footer__copyright">
-      <p>Copyright @ 2021 Bunbun'sGarden | Created by: <a href="https://github.com/trishacapitle" target="_blank">ash_dev</a></p>
-        <div class="footer__copyright-links">
-          <a href="https://www.facebook.com/trishacapitle01" target="_blank"><box-icon type='logo' name='facebook'></box-icon></a>
-          <a href="https://github.com/trishacapitle"><box-icon type='logo' name='github'></box-icon></a>
-          <a href="https://www.linkedin.com/in/trisha-capitle/" target="_blank"><box-icon type='logo' name='linkedin'></box-icon></a>
+      <section class="categories">
+        <div class="categories__content" data-aos="fade-right">
+          <h2 class="title">Explore from Categories</h2>
+          <p class="description description-color">There are different types of plants all around us, and most of us recognize many kinds of plants that flower, grow in our gardens, or that we can eat. There is a vast range in the types of plants that grow in the world. </p>
+          <button class="btn-active">See All</button>
         </div>
-    </div>
-  </footer>
+        <div class="categories__img-container" data-aos="fade-left">
+          <div class="categories__img hanging"><p>Hanging</p></div>
+          <div class="categories__img cactus"><p>Cactus</p></div>
+          <div class="categories__img indoor"><p>Indoor Plant</p></div>
+          <div class="categories__img outdoor"><p>Outdoor Plant</p></div>
+        </div>
+      </section>
 
+      <section class="newsletter">
+        <div class="newsletter__content" data-aos="fade-up">
+          <h2 class="title white" >Garden Pokhara welcomes you!!</h2>
+          <p class="description-2 white">Receive 10% off on your purchase. Redeem now!</p>
+        </div>
+        <div class="newsletter__form" data-aos="fade-down"> 
+          <input type="email" placeholder="Enter your email address"  class="input">
+          <button id="btn-claim" class="btn-active">Claim now!
+        </div>
+      </section> 
+
+      <section class="upcoming">
+        <div class="upcoming__content">
+          <h2 class="title">Upcoming Plants</h2>
+          <div class="upcoming__gallery" data-aos="flip-down">
+            <figure>   
+              <img src="assets/ivy.png" alt="ivy">
+              <figcaption class="description-2 bold">Ivy</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/jasmine.png" alt="jasmine">
+              <figcaption class="description-2 bold">Jasmine</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/rosemary.png" alt="rosemary">
+              <figcaption class="description-2 bold">Rosemary</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/gingko.jpg" alt="gingko">
+              <figcaption class="description-2 bold">Gingko</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="#">Home</a></li>
+            <li class="footer__nav-item"><a href="#">About</a></li>
+            <li class="footer__nav-item"><a href="#">Services</a></li>
+            <li class="footer__nav-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h3>Contact</h3>
+          <p class="description-2">Mabini, Philippines</p>
+          <p class="description-2">mail@bunbunsgarden.club</p>
+          <p class="description-2">+63-9999999999</p>
+        </div>
+        <div class="footer__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.9342647637415!2d121.43643601479573!3d14.49944989182383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c4c5cd4e6f%3A0x7fbbd7f7f2e3c07a!2sBrgy%20Mabini%2C%20Tayabas%2C%20Quezon!5e0!3m2!1sen!2sph!4v1622209443116!5m2!1sen!2sph"  allowfullscreen="" loading="lazy"></iframe>
+        </div>  
+      </div>
+
+      <hr>
+
+      <div class="footer__copyright">
+        <p>Copyright @ 2021 Bunbun'sGarden | Created by: <a href="https://github.com/trishacapitle" target="_blank">ash_dev</a></p>
+          <div class="footer__copyright-links">
+            <a href="https://www.facebook.com/trishacapitle01" target="_blank"><box-icon type='logo' name='facebook'></box-icon></a>
+            <a href="https://github.com/trishacapitle"><box-icon type='logo' name='github'></box-icon></a>
+            <a href="https://www.linkedin.com/in/trisha-capitle/" target="_blank"><box-icon type='logo' name='linkedin'></box-icon></a>
+          </div>
+      </div>
+    </footer>
+  </div>
   <script type="module" src="js/script.js"></script>
 </body>
 </html>

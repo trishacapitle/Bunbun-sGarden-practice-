@@ -23,6 +23,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 5%;
     width: 40%;
+    height: 30vh;
 }
 
 .categories__img {

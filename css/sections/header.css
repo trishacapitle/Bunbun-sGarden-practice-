@@ -4,6 +4,8 @@
     top: 0;
     padding-top: 2vh;
     justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
 }
 
 .header__logo {
