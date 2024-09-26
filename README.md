@@ -28,7 +28,7 @@ The website should have:
 
 ### Links
 
-- Live Site URL: (https://dashboard-darklightoggle.vercel.app](https://bunbun-s-garden-frontend-practice.vercel.app)
+- Live Site URL: (https://bunbun-s-garden-frontend-practice.vercel.app)
 
 ## My process
 
